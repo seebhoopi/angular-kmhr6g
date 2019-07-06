@@ -14,7 +14,7 @@ import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   imports:      [ AppRoutingModule, BrowserModule, BrowserAnimationsModule, FormsModule, HttpClientModule,
       MaterialModule, QuizModule, SharedModule],
-  declarations: [ AppComponent, HomeComponent ],
+  declarations: [ AppComponent, WelcomeComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
