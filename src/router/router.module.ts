@@ -6,7 +6,7 @@ import {WelcomeComponent} from '../app/welcome/welcome.component';
 export const appRoutes: Routes = [
     {path: 'welcome', component: WelcomeComponent},
     {path: 'quiz-question', component: QuizQuestionComponent},
-    {path: '**', redirectTo: 'home', pathMatch: 'full'}
+    {path: '**', redirectTo: 'welcome', pathMatch: 'full'}
 ];
 
 @NgModule({

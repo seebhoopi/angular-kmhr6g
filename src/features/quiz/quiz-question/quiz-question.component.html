@@ -2,7 +2,7 @@
     <ng-container *ngIf="currentQuestion < questionCount; else quiz_results">
         <mat-card-header>
             <div mat-card-avatar class="header-image"></div>
-            <mat-card-title>Super Duper Quiz</mat-card-title>
+            <mat-card-title>Quiz</mat-card-title>
             <mat-card-subtitle *ngIf="currentQuestion < questionCount; else quiz_finished">Question {{currentQuestion + 1}} of {{questionCount}}</mat-card-subtitle>
             <ng-template #quiz_finished><mat-card-subtitle>Quiz Complete</mat-card-subtitle></ng-template>
         </mat-card-header>

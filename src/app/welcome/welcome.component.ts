@@ -12,6 +12,7 @@ export class WelcomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log('coming to ngONINit');
   }
 
   startQuiz() {
